@@ -18,7 +18,6 @@ $('#lastNameLength').change(() => {
         currentLength = length
 
         for (let i = 0; i < length; i++) {
-            console.log('penis')
             let div = $('<div class="form-group"></div>')
             let label = $(`<label for="lastNameChar${i + 1}">Select character #${i + 1} of your last name</label>`)
             let select = $(`<select class="custom-select input" id="lastNameChar${i + 1}">`)
